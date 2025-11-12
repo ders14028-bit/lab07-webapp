@@ -16,6 +16,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'lab7aysrWebApp'  
+          app-name: 'lab7aysrwebapp-b7b9e2bjaxgkd5c4'  
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
